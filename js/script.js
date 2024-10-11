@@ -4,7 +4,7 @@ const c = canvas.getContext('2d');
 const backgroundImage = new Image();
 c.fillStyle = 'black';
 c.fillRect(0, 0, canvas.width, canvas.height);
-backgroundImage.src = '/assets/bgg.png';
+backgroundImage.src = '/assets/images/bgg.png';
 
 backgroundImage.onload = function() {
     c.drawImage(backgroundImage, 0, 0, canvas.width, canvas.height);
