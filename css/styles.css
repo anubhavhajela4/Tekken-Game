@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #333333;
+}
+canvas{
+    display: block;
+    border-radius: 20px;
+}
+#startButton {
+    padding: 15px 32px;
+    font-size: 30px;
+    border: none;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: aliceblue;
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    border-radius: 10px;
+    transform: translateX(-50%);
+    cursor: pointer;
+}
+#startButton:hover {
+    background-color: rgba(0, 0, 0, 1);
+}
