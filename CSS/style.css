@@ -12,7 +12,7 @@ body {
     align-items: center;
 }
 #canvas {
-    background-image: url(/Tekken-Game/Assets/Images/Fighting_Background.png);
+    background-image: url("/Tekken-Game/assets/images/Fighting_Background.png");
     background-size: cover;
     background-position: center;
     display: block;
